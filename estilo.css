@@ -1,0 +1,142 @@
+body {
+    background-image: url('https://www.hostingplus.cl/wp-content/uploads/2020/03/lenguaje-programacion.jpg');
+    background-size: cover; /*Ajusto la imagen para que cubra todo el fondo*/
+    background-position: center; /*Centro la imagen*/
+    background-attachment: fixed; /*Mantengo la imagen fija al scrollear*/
+    background-repeat: no-repeat; /*Para que la imagen no se repita*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex; /*Agrupa todo en una línea*/
+    justify-content: space-between; /*Pone el contenido en los extremos*/
+    align-items: center;
+    background-color: #000; /*Fondo negro*/
+    color: #fff; /*Letras blancas*/
+    padding: 1rem 2rem; /*Espacio interno*/
+}
+
+/*Menú de navegación*/
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    /*cambia el color cuando el cursos esta por encima*/
+    color: #f398c5;
+}
+
+/*Secciones*/
+.section {
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    /*sombrita para relieve*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;    
+    color: #333;
+}
+
+h3 {
+    text-align: center;    
+    color: #333;
+}
+
+p{
+    font-family: Tahoma;
+    text-align: center;    
+}
+
+.imgPerfil {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.iconosConocimientos {
+    list-style: none; 
+    padding: 0;
+    display: flex; /*Pone los íconos en línea*/
+    justify-content: center; /*Centra los íconos*/
+
+}
+
+.iconosConocimientos td {
+    padding: 10px;
+}
+
+/*Formulario de contacto*/
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #f398c5;
+}
+
+/*Redes sociales*/
+.iconosRedesSociales{
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+.iconosRedesSociales li {
+    margin: 0 30px; /*Espacio entre los íconos*/
+    text-align: center; /*Alinea el texto debajo de los íconos*/
+}
+
+.iconosRedesSociales a {
+    text-decoration: none; 
+    color: #333; 
+}
+
+.iconosRedesSociales a:hover span {
+    color: #f398c5;
+}
+
+.icono {
+    width: 60px; 
+    height: 60px;
+    transition: transform 0.3s; /*Efecto al pasar el mouse*/
+}
+
+.icono:hover {
+    transform: scale(1.2); /*Aumenta el tamaño al pasar el mouse*/
+}
+
+.iconosRedesSociales span {
+    display: block;
+    margin-top: 20px; /*Espacio entre el ícono y el nombre*/
+    font-weight: bold; /*Negrita*/
+    color: #333;
+}

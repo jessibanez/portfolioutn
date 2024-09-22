@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jess Ibañez - Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Jess Ibañez</h1>
+    <nav>
+        <a href="#sobreMi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#redes">Redes</a>
+    </nav>
+</header>
+
+<section id="sobreMi" class="section">
+    <h2>Un poco sobre mí...</h2>
+    <img src="yo.jpeg" alt="Jess Ibañez" class="imgPerfil">
+    <p>Soy estudiante de la Tecnicatura en Programación en la Universidad Tecnológica Nacional.</p>
+    <h3>Mis conocimientos</h3>
+   <table class="iconosConocimientos">
+        <tr>
+                <td><img width="50px" src="https://cdn.worldvectorlogo.com/logos/c.svg" alt="C++"></td>
+                <td><img width="50px" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" alt="C#"></td>
+                <td><img width="50px" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML"></td>
+        </tr>
+        <tr>
+            <td><img width="50px" src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" alt="SQL"></td>
+            <td><img width="50px" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="Javascript"></td>
+            <td><img width="50px" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS"></td>
+        </tr>
+   </table>
+</section>
+
+<section id="proyectos" class="section">
+    <h2>Proyectos</h2>
+    <p>Dentro de mi repositorio, vas a encontrar mis proyectos académicos. Te invito a que te des una vuelta.</p> 
+    <ul class="iconosRedesSociales">
+        <li>
+            <a href="https://github.com/jessibanez" target="_blank">
+                <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="GitHub" class="icono">
+                <span>GitHub</span>
+            </a>
+        </li>
+
+    </ul>
+</section>
+
+<section id="redes" class="section">
+    <h2>Redes</h2>
+    <ul class="iconosRedesSociales">
+        <li>
+            <a href="https://www.instagram.com/jessibanez.avon/" target="_blank">
+                <img src="https://cdn.worldvectorlogo.com/logos/instagram-2016-5.svg" alt="Instagram" class="icono">
+                <span>Instagram</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/JessIbañez" target="_blank">
+                <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg" alt="LinkedIn" class="icono">
+                <span>LinkedIn</span>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section id="contacto" class="section">
+    <h2>¡Contactame!</h2>
+    <form class="formulario">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="email" placeholder="Tu email" required>
+        <textarea id="mensaje" rows="5" placeholder="Deja tu mensaje" required></textarea>
+        <button onclick="hola()" type="boton">Enviar</button>
+    </form>
+</section>
+
+</body>
+</html>
